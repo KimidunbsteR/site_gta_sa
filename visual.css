@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    background-image: url(./imagens/gta_logo.png);
+    background-size: 3px;
+    opacity: 20;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+@font-face {
+    font-family: 'diploma';
+    src: url('./fontes/diploma.ttf');
+    src: url('./fontes/diploma.ttf') format('embedded-opentype'),
+      url('./fontes/diploma.ttf') format('svg'),
+      url('./fontes/diploma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pricedown';
+    src: url('./fontes/pricedown\ bl.ttf');
+    src: url('./fontes/pricedown\ bl.ttf') format('embedded-opentype'),
+      url('./fontes/pricedown\ bl.ttf') format('svg'),
+      url('./fontes/pricedown\ bl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    height: 40vh;
+    background-image: url(imagens/grove_street_gang.jpg);
+    background-size: cover;
+    background-position: 0 3%;
+}
+nav div {
+    display: flex; 
+    height: 100%;
+    /* colocar o os links espaçados, e um embaixo do outro */
+}
+nav div a {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'diploma';
+    font-size: 60pt;
+    align-items: center;
+}
+aside p {
+    font-family: 'pricedown';
+    font-size: 30pt;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 250px;
+}
+#CantoInferiorDireito {
+    justify-content: end;
+}
