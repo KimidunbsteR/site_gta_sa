@@ -36,7 +36,7 @@ nav {
 nav div {
     display: flex; 
     height: 100%;
-    /* colocar o os links espaçados, e um embaixo do outro */
+    /* colocar os links um embaixo do outro */
 }
 nav div a {
     justify-content: center;
@@ -45,6 +45,7 @@ nav div a {
     font-family: 'diploma';
     font-size: 60pt;
     align-items: center;
+    /* colocar os links espaçados */
 }
 aside p {
     font-family: 'pricedown';
